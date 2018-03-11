@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.candlf.com/dist/custom/images/fire.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.candlf.com/dist/custom/images/fire.png">
+	 <meta property="og:title" content="Candlf" />
+    <meta property="og:description" content="Education platform the Candlf"/>
+    <meta property="og:image" content="https://www.candlf.com/dist/rspirit/img/m_backimg.png" />
+    <meta property="og:url" content="https://www.candlf.com/" />
+    <meta property="fb:app_id" content="429775064038269" />
+	
+	<title>Candlf</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/video-js.css" rel="stylesheet" />
+
+
+	<link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
+
+	<!--<link href="assets/css/paper-dashboard.css" rel="stylesheet"/>-->
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+
+
+	<!-- Fonts and Icons -->
+	<link href="../dist/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="assets/css/themify-icons.css" rel="stylesheet">
+	<link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+	<link href="../dist/rspirit/css/candlf.css" rel="stylesheet">
+	<link href="../dist/assets/css/sweetalert.css" rel="stylesheet">
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64358580-12', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body id="bodyMain" style="background-color:white;display:none" >
+	<div style="background-color:darkorange;width:100%;height:5px;">
+
+	</div>
+
+	<div class="wrapper" style="background-color: #c5c6c7;">
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar bar1"></span>
+	                        <span class="icon-bar bar2"></span>
+	                        <span class="icon-bar bar3"></span>
+	                    </button>
+					<img class="userPhoto profilePhoto " style="border-radius: 50%;border: 2px solid #a2a2a2;width:40px;left:30px" src="../dist/rspirit/img/users.png">
+					<a class="navbar-brand" href="#" >
+						Reference media	
+						</a>
+				</div>
+				<div class="collapse navbar-collapse">
+
+					<form class="navbar-form navbar-left navbar-search-form" role="search">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-search"></i></span>
+							<input type="text" value="" class="form-control" placeholder="Search...">
+						</div>
+					</form>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="../repository" class="btn-magnify point">
+								<i class="ti-server"></i>
+								<p>Repository</p>
+							</a>
+						</li>
+						<li>
+							<a href="../candlf" class="btn-magnify point">
+								<i class="ti-package"></i>
+								<p>Candlf</p>
+							</a>
+						</li>
+						<li>
+							<a href="../upload/" class="btn-magnify point">
+								<i class="ti-cloud-up"></i>
+								<p>New Upload</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="btn-magnify point">
+								<i class="ti-comments-smiley"></i>
+								<p>Community</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="image-container set-full-height" style="background-color: #c5c6c7;">
+
+			<!--   Big container   -->
+			<div class="container" >
+				<div class="row">
+					<div class="col-sm-12">
+
+						<h2>Select related media</h2>
+
+						<div id="carousel" style="height: 400px;">
+							<ul class="flip-items" style="height: 300px !important">
+								<li data-flip-title="AI">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/1.png" onclick="sample('1','https://www.candlf.com/dist/rspirit/img/1.png')">
+								</li>
+								<li data-flip-title="Razzmatazz" data-flip-category="Deep Mind">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/1.jpg" onclick="sample('2','https://www.candlf.com/dist/rspirit/img/1.jpg')">
+								</li>
+								<li data-flip-title="Deep Lilac" data-flip-category="Deep Mind">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/2.jpeg" onclick="sample('3','https://www.candlf.com/dist/rspirit/img/2.jpeg')">
+								</li>
+								<li data-flip-title="Daisy Bush" data-flip-category="Deep Mind">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/3.jpeg" onclick="sample('4','https://www.candlf.com/dist/rspirit/img/3.jpeg')">
+								</li>
+								<li data-flip-title="Cerulean Blue" data-flip-category="Deep Mind">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/4.jpeg" onclick="sample('5','https://www.candlf.com/dist/rspirit/img/4.jpeg')">
+								</li>
+								<li data-flip-title="Lec#1" data-flip-category="Machine Learning">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/11.jpeg" onclick="sample('6','https://www.candlf.com/dist/rspirit/img/11.jpeg')">
+								</li>
+								<li data-flip-title="Lec#2" data-flip-category="Machine Learning">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/12.jpeg" onclick="sample('7','https://www.candlf.com/dist/rspirit/img/12.jpeg')">
+								</li>
+								<li data-flip-title="Lec#3" data-flip-category="Machine Learning">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/13.jpeg" onclick="sample('8','https://www.candlf.com/dist/rspirit/img/13.jpeg')">
+								</li>
+								<li data-flip-title="Lec#4" data-flip-category="Machine Learning">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/14.jpeg" onclick="sample('9','https://www.candlf.com/dist/rspirit/img/14.jpeg')">
+								</li>
+								<li data-flip-title="Lec#1" data-flip-category="Optimization">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/21.jpeg" onclick="sample('10','https://www.candlf.com/dist/rspirit/img/21.jpeg')">
+								</li>
+								<li data-flip-title="Lec#2" data-flip-category="Optimization">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/22.jpeg" onclick="sample('11','https://www.candlf.com/dist/rspirit/img/22.jpeg')">
+								</li>
+								<li data-flip-title="Lec#3" data-flip-category="Optimization">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/23.png" onclick="sample('12','https://www.candlf.com/dist/rspirit/img/23.png')">
+								</li>
+								<li data-flip-title="Lec#1" data-flip-category="R">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/31.jpeg" onclick="sample('13','https://www.candlf.com/dist/rspirit/img/31.jpeg')">
+								</li>
+								<li data-flip-title="Lec#1" data-flip-category="R">
+									<img class="imgSlid point" src="https://www.candlf.com/dist/rspirit/img/32.jpeg" onclick="sample('14','https://www.candlf.com/dist/rspirit/img/32.jpeg')">
+								</li>
+							</ul>
+						</div>
+
+
+					</div>
+					<span id="lbltitle" class="notshowable"></span>
+					<span id="lblimage" class="notshowable"></span>
+					<span id="lblsrc" class="notshowable"></span>
+
+					<div class="col-sm-8 col-sm-offset-2" style="margin-top: 20px;margin-bottom:10px;">
+						<div id="divVs">
+							<!--<video id="example_video_1" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="400" poster="asscets/img/sample.png"
+						 data-setup='{"techOrder":["youtube"], "src":"http://www.youtube.com/watch?v=fcAvdVN4xgA"}'>
+						</video> class="video-js" -->
+						<video id="my-video" width="100%" height="100%"  controls autoplay></video>
+<!--<iframe id="my-video"  width="100%" height="100%" src="" frameborder="0" allowfullscreen=""  style="height: 400px;" oncontextmenu="return false;"></iframe>
+							<video id="my-video" class="video-js" controls preload="auto" poster="" data-setup='{"fluid": true}'>
+
+
+							</video>  -->
+
+
+							<!--	<iframe width="100%" height="400" id="frmMyRef" src="" frameborder="0" allowfullscreen></iframe> -->
+
+						</div>
+					</div>
+
+					<div class="col-sm-8 col-sm-offset-2">
+						<button class="btn btn-primary" id="btnRepository" style="width: 100%;margin-bottom: 10px;"><i class="ti-import"></i>&nbsp;&nbsp;Save to repository</button>
+					</div>
+					<!--end-->
+				</div>
+				<!-- end row -->
+			</div>
+			<!--  big container -->
+
+			<div class="footer" style="left: 0;right: 0;padding-bottom: 20px;padding-top: 20px;margin-bottom: -20px;background-color: white;">
+				<div class="container text-center">
+					©
+					<script>
+						document.write(new Date().getFullYear())
+					</script> Made with <i class="fa fa-heart heart"></i> by <a href="http://www.r-spirit.com/">R-Spirit</a>.
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap-checkbox-radio-switch-tags.js" type="text/javascript"></script>
+<script src="assets/js/jquery.flipster.min.js"></script>
+
+
+
+
+<script src="assets/js/paper-dashboard.js" type="text/javascript"></script>
+<script src="assets/js/videojs-ie8.min.js" type="text/javascript"></script>
+<script src="assets/js/video.js" type="text/javascript"></script>
+<script src="assets/js/Youtube.js" type="text/javascript"></script>
+
+
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-database.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="../dist/assets/js/sweetalert2.js"></script>
+<script src="../dist/rspirit/js/aes.js"></script>
+
+<script src="../dist/rspirit/js/candlf.1.1.0.min.js"></script>
+<script src='../dist/rspirit/js/autosize.min.js'></script>
+
+<script>
+	$(document).ready(function () {
+		var carousel = $("#carousel").flipster({
+			style: 'carousel',
+			spacing: -0.5,
+			nav: true,
+			buttons: true,
+		});
+		$('[data-toggle="tooltip"]').tooltip();
+
+		$("#bodyMain").css("display", "");
+
+		$('#my-video').bind('contextmenu', function () { return false; }); 
+	});
+
+</script>
+
+</html>

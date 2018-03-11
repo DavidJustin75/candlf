@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.candlf.com/dist/custom/images/fire.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.candlf.com/dist/custom/images/fire.png">
+    <meta property="og:title" content="Candlf" />
+    <meta property="og:description" content="Education platform the Candlf" />
+    <meta property="og:image" content="https://www.candlf.com/dist/rspirit/img/m_backimg.png" />
+    <meta property="og:url" content="https://www.candlf.com/" />
+    <meta property="fb:app_id" content="429775064038269" />
+
+    <title>Candlf</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/hipster_cards.css" rel="stylesheet" />
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet" />
+
+
+    <!--     Fonts and icons     -->
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <link href="../dist/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:700,100,400|Roboto:400,700|Playfair+Display+SC:400,700'
+        rel='stylesheet' type='text/css'>
+    <link href="../dist/rspirit/css/candlf.css" rel="stylesheet">
+    <link href="../dist/rspirit/css/selectize.css" rel="stylesheet">
+    <link href="../dist/rspirit/css/selectize.default.css" rel="stylesheet">
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-64358580-12', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body style="background-color:white" id="bdMain">
+
+    <div class="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar bar1"></span>
+	                        <span class="icon-bar bar2"></span>
+	                        <span class="icon-bar bar3"></span>
+	                    </button>
+                    <a class="navbar-brand" href="#Dashboard">
+							Candlf
+						</a>
+                </div>
+                <div class="collapse navbar-collapse">
+
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="../repository" class="btn-magnify point">
+                                <i class="ti-server"></i>
+                                <p>Repository</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../upload/" class="btn-magnify point">
+                                <i class="ti-cloud-up"></i>
+                                <p>New Upload</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-magnify point">
+                                <i class="ti-comments-smiley"></i>
+                                <p>Community</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <div class="row" style="margin-bottom:20px">
+                <!--
+                <div class="col-sm-7">
+                    <input name="tagsinput" id="tags3" class="tagsinput tag-success" value="Minimal, Light, New, Friends" />
+                </div>-->
+                <div class="col-sm-7">
+                <div class="control-group">
+					<label for="select-state">Keyword</label>
+					<select id="select-state" name="state[]" multiple class="demo-default" style="width:100%" placeholder="Select a keyword...">
+						<option value="">Select a state...</option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA" selected>California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY" selected>Wyoming</option>
+					</select>
+				</div>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button"  id="btncandlf" class="btn btn-success btn-sm" style="width:100%;    margin-top: 25px;">Search</button>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button"  id="btnsavekeyword" class="btn btn-success btn-sm" style="width:100%;    margin-top: 25px;">Save Keyword</button>
+                </div>
+            </div>
+
+            <div class="masonry-container">
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer" style="left: 0;right: 0;padding-bottom: 20px;padding-top: 20px;margin-bottom: -20px;background-color: white;">
+            <div class="container text-center">
+                ©
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> Made with <i class="fa fa-heart heart"></i> by <a href="http://www.r-spirit.com/">R-Spirit</a>.
+            </div>
+        </div>
+
+    </div>
+    <div id="imgLoading"><img src="../dist/rspirit/img/loading.gif" /></div>
+    <!-- end wrapper -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="height: 400px;">
+                    <!-- <iframe id="my-video2" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>-->
+
+                    <video id="my-video2" width="100%" height="100%" controls autoplay>
+
+                    </video>
+
+                    <iframe id="my-pdf" width="100%" height="100%" src="" frameborder="0" allowfullscreen></iframe>
+                    <div id="my-img" style="max-height:100%;max-width:100%;height: 400px;background-size: contain;background-position: center;background-repeat: no-repeat;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/hipster-cards.js"></script>
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/js/paper-dashboard.js"></script>
+
+<script src="assets/js/videojs-ie8.min.js" type="text/javascript"></script>
+<script src="assets/js/video.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap-checkbox-radio-switch-tags.js" type="text/javascript"></script>
+<script src="assets/js/jquery.tagsinput/src/jquery.tagsinput.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap-selectpicker.js"></script>
+
+
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js"></script>
+
+    <script src="../dist/assets/js/sweetalert2.js"></script>
+    <script src="../dist/rspirit/js/index.js"></script>
+    <script src="../dist/rspirit/js/selectize.js"></script>
+    <script src="../dist/rspirit/js/aes.js"></script>
+    <script src="../dist/rspirit/js/candlf.1.1.0.min.js"></script> 
+    <script src='../dist/rspirit/js/autosize.min.js'></script>
+
+    <!-- Just for demo	 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+
+    <script>
+                    $(document).ready(function () {
+                   
+                        Kakao.init('dba45eb757a6519bf9c6a1793899fbd4');
+
+                        //  $("#bdMain").bind('contextmenu', function () { return false; });
+
+                        /*
+                                $('my-video2').load(function () {
+                                    $("#my-video2").bind('contextmenu', function () { return false; });
+                                    $("video").bind('contextmenu', function () { return false; });
+                                });*/
+
+
+
+                    });
+
+                    $(document).on('hide.bs.modal', '#myModal', function () {
+                        $('#my-video2').trigger('pause');
+                    });
+
+                    $('#select-state').selectize({
+					maxItems: 10
+				});
+    </script>
+
+</html>
